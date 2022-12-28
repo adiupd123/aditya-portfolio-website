@@ -36,10 +36,25 @@ export const Projects = () => {
             description: " Design & Development",
             imgUrl: projImg3,
         },
+        {
+            title: "Business Startup",
+            description: " Design & Development",
+            imgUrl: projImg1,
+        },
+        {
+            title: "Business Startup",
+            description: " Design & Development",
+            imgUrl: projImg2,
+        },
+        {
+            title: "Business Startup",
+            description: " Design & Development",
+            imgUrl: projImg3,
+        },
     ];
     
     return (
-        <section className="project" id="project">
+        <section className="project" id="projects">
             <Container>
                 <Row>
                     <Col>
@@ -83,7 +98,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src="colorSharp2" />
+            <img className="background-image-right" src={colorSharp2} />
         </section>
     );
 }
