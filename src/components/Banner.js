@@ -7,7 +7,7 @@ import 'animate.css';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Android Developer", "Open-Source Enthusiast"];
+    const toRotate = ["Student\"", "Android Developer\"", "Open-Source Enthusiast\""];
     const [text, setText] = useState('');
     const period = 2000;
     const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -42,8 +42,8 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline"> Welcome to my Portfolio</span>
-                        <h1>{'Hi, I\'m an '}<span className="wrap">{text}</span></h1>
-                        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h1>"<span className="wrap">{text}</span></h1>
+                        <p>Hello, I'm Aditya Upadhyay, passionate about Android App Development and creating responsive apps to completion.</p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

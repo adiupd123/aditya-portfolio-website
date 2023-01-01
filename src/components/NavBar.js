@@ -46,7 +46,7 @@ export const NavBar = () => {
                         <a href="https://github.com/adiupd123"><img src={navIcon2} alt="" /> </a>
                         <a href="https://twitter.com/adityaupd123"><img src={navIcon3} alt="" /> </a>
                     </div>
-                    <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                    <button className="vvd" onClick={() => window.open("https://drive.google.com/file/d/1G633NdZhZIg_oIoomE2gBmYfP9ASI80q/view?usp=sharing", "_blank") }><span>My Resume</span></button>
                 </span>
                 </Navbar.Collapse>
             </Container>
