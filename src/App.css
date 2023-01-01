@@ -229,6 +229,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+#logo-img {
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+
+  top: 0;
+  z-index: 9999;
+}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -561,8 +569,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .footer p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   color: #B8B8B8;
   letter-spacing: 0.5px;
-  margin-top: 40px;
+  margin-top: 0px;
+}
+.container:hover .caffiene{
+  visibility: visible;
+  opacity: 1;
 }

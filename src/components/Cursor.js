@@ -5,10 +5,10 @@ export const Cursor = () => {
     return (
         <AnimatedCursor
             innerSize={12}
-            outerSize={18}
+            outerSize={24}
             color='255, 255, 255'
             outerAlpha={0.3}
-            innerScale={1.5}
+            innerScale={0.8}
             outerScale={4}
             clickables={[
                 'a',
