@@ -8,49 +8,24 @@ export const Projects = () => {
     const projects = [
         {
             title: "FingerTrip",
-            description: "Design & Development",
+            description: "Social Media App",
             imgUrl: projImg1,
         },
         {
-            title: "Business Startup",
-            description: " Design & Development",
+            title: "BeerBuzz",
+            description: "Beverage Based App",
             imgUrl: projImg2,
         },
         {
-            title: "Business Startup",
-            description: " Design & Development",
+            title: "Pokedex",
+            description: "Pokemon explorer App",
             imgUrl: projImg3,
         }, 
         {
-            title: "Business Startup",
-            description: " Design & Development",
+            title: "CookMaster",
+            description: "Recipe Searching App",
             imgUrl: projImg1,
-        },
-        {
-            title: "Business Startup",
-            description: " Design & Development",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Business Startup",
-            description: " Design & Development",
-            imgUrl: projImg3,
-        },
-        {
-            title: "Business Startup",
-            description: " Design & Development",
-            imgUrl: projImg1,
-        },
-        {
-            title: "Business Startup",
-            description: " Design & Development",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Business Startup",
-            description: " Design & Development",
-            imgUrl: projImg3,
-        },
+        }
     ];
     
     return (
