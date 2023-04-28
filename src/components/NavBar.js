@@ -41,7 +41,7 @@ export const NavBar = () => {
                     <Nav.Link href="#projects" className={ activeLink==='projects' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
-                    <button className="vvd" onClick={() => window.open("https://drive.google.com/file/d/1G633NdZhZIg_oIoomE2gBmYfP9ASI80q/view?usp=sharing", "_blank") }><span>My Resume</span></button>
+                    <button className="vvd" onClick={() => window.open("https://drive.google.com/file/d/1xjFcwQ1ltfqNlXpCl_1ICRI4o7pFXoBf/view?usp=sharing", "_blank") }><span>My Resume</span></button>
                 </span>
                 </Navbar.Collapse>
             </Container>

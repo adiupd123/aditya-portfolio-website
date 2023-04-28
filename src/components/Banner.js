@@ -7,7 +7,7 @@ import 'animate.css';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Student\"", "Android Developer\"", "Open-Source Enthusiast\""];
+    const toRotate = ["CS Undergrad\"", "Android Developer\""];
     const [text, setText] = useState('');
     const period = 2000;
     const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -43,7 +43,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline"> Welcome to my Portfolio</span>
                         <h1>"<span className="wrap">{text}</span></h1>
-                        <p>Hello, I'm Aditya Upadhyay, passionate about Android App Development and creating responsive apps to completion.</p>
+                        <p>Hello, I'm Aditya Upadhyay, a Computer Science undergraduate and an Android Developer from India. I'm passionate about Android App Development and solving problems, creating beautiful responsive apps and pushing them to completion.</p>
                         <button onClick={() => window.open("https://linktr.ee/adiupd123", "__blank")}>Let's connect <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

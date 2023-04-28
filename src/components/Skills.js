@@ -36,25 +36,22 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.<br/> Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5> Android Development</h5>
+                                    <h3> Android Development </h3>
+                                    <h5> Java, Kotlin </h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
-                                    <h5> Open Source</h5>
+                                    <h3> Backend Development </h3>
+                                    <h5> Kotlin, Ktor </h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
-                                    <h5> Problem Solving</h5>
+                                    <h3> Problem Solving </h3>
+                                    <h5> C, C++, Data Structures and Algorithms </h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5> </h5>
-                                </div>    
-                            </Carousel>
+                                    <h3> Web Development </h3>
+                                    <h5> HTML, CSS, Javascript, React </h5>
+                                </div>
                         </div>
                     </Col>
                 </Row>
